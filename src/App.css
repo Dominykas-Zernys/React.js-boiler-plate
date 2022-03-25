@@ -1,1 +1,21 @@
+.container {
+  width: 80%;
+  margin: auto;
+}
 
+h1 {
+  margin: auto;
+  text-align: center;
+}
+
+h5 {
+  margin: auto;
+  text-align: center;
+  font-style: italic;
+  font-weight: 100;
+}
+
+.band-members {
+  display: flex;
+  justify-content: space-around;
+}

@@ -1,9 +1,21 @@
 import './App.css';
+import './cityCards.css';
+import ImageList from './components/ImageList';
+import MainHeading from './components/MainHeading';
+import Subtitle from './components/Subtitle';
+import MainText from './components/MainText';
+import CityCards from './components/CityCards';
 
 function App() {
   return (
     <div className='App'>
-      <h1>Our app</h1>
+      <div className='container'>
+        <MainHeading />
+        <Subtitle />
+        <MainText />
+        <ImageList />
+      </div>
+      <CityCards />
     </div>
   );
 }
